@@ -1,0 +1,77 @@
+.thumbnail {
+    position: relative;
+    padding: 15px;
+}
+
+.thumbnail > h3 {
+    padding: 7px 5px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.thumbnail h3 .info {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 0.6em;
+    padding-left: 15px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 4px;
+    border-radius: 0px;
+    border-bottom-left-radius: 5px;
+    /*cursor: pointer;*/
+}
+
+.thumbnail h3 .info > span {
+    /*margin-right: 10px;*/
+}
+
+.section-footer {
+    position: absolute;
+    width: 100%;
+    /*bottom: 0;*/
+    /*height:200px;*/
+}
+
+.section-footer .container, .section-footer .container-fluid {
+    padding-bottom: 120px!important;
+}
+
+@media (min-width: 992px){
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;
+}
+}
+
+h3{
+    margin-top: 10px!important;
+}
+
+/*--------BUTTON ScrollToTop------*/
+.scrollup {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: none;
+    color: white;
+    background-color: #005A66;
+    border: 1px solid #005A66;
+    border-radius:40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    z-index: 2;
+}
+ 
+.scrollup:hover {
+    color: white;
+    background-color: #8EB9C5;
+    border-color: #8EB9C5;
+}
+
+.mv-intranet {
+    display: none;
+}
