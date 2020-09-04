@@ -1,37 +1,59 @@
+.popover, .tooltip, body {
+    font-family: "Open sans",Helvetica,Arial,sans-serif;
+}
+
+.navbar-dark{
+    padding:10px 34px;
+    background-color:#121212;
+}
+
+.navbar-brand{
+    margin:unset;
+    float:left;
+    padding:0;
+    height:auto;
+}
+
+.navbar-brand h1{
+    margin:0;
+    text-transform: capitalize;
+    font-size:24px;
+    margin-left:30px;
+}
+
+.navbar-brand>img{
+    width:50px;
+    display:inline-block;
+}
+
+.PageContent{
+    margin-top:60px;
+}
+
+.PortailTitre{
+    margin:50px auto;
+    line-height:40px;
+    margin-bottom:40px
+}
+
 .thumbnail {
     position: relative;
-    padding: 15px;
+    padding: 0px;
+    border:none;
+    box-shadow:0 0 10px #ccc;
+    border-radius:5px;
+    margin-bottom:30px;
 }
 
-.thumbnail > h3 {
-    padding: 7px 5px 0px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.thumbnail h3 .info {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    font-size: 0.6em;
-    padding-left: 15px;
-    border-top-right-radius: 3px;
-    border-bottom-left-radius: 4px;
-    border-radius: 0px;
-    border-bottom-left-radius: 5px;
-    /*cursor: pointer;*/
-}
-
-.thumbnail h3 .info > span {
-    /*margin-right: 10px;*/
+.thumbnail img{
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
 }
 
 .section-footer {
     position: absolute;
     width: 100%;
-    /*bottom: 0;*/
-    /*height:200px;*/
+
 }
 
 .section-footer .container, .section-footer .container-fluid {
@@ -44,8 +66,32 @@
 }
 }
 
-h3{
-    margin-top: 10px!important;
+.card-body h3{
+    margin-top: 0px;
+    font-size:20px;
+}
+
+.card-body{
+    padding:20px;
+}
+
+.card-body p{
+    margin: 0 0 20px;
+}
+
+.card-body a{
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    border-radius:4px;
+    padding:1.5rem 3rem;
+    width:auto;
+    margin:0 auto;
+
+}
+
+.card-body b{
+    font-size:12px;
 }
 
 /*--------BUTTON ScrollToTop------*/
@@ -60,7 +106,6 @@ h3{
     background-color: #005A66;
     border: 1px solid #005A66;
     border-radius:40px;
-    font-size: 20px;
     text-align: center;
     line-height: 50px;
     z-index: 2;
@@ -72,6 +117,14 @@ h3{
     border-color: #8EB9C5;
 }
 
-.mv-intranet {
-    display: none;
-}
+.arrow {
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
